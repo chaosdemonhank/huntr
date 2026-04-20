@@ -48,4 +48,4 @@ All source code, design assets, UI/UX elements, and branding within this reposit
 HÜNTR is provided "as is" without any warranties. **HonkyHankInc** and its developers are not liable for any interactions, damages, or incidents occurring between users. Use the app responsibly and at your own risk. Must be 18+ to use.
 
 ---
-**Built with grit and late nights in Bristol, VA.**
+**Built with grit and late nights by an indie dev over corporate greed.**
