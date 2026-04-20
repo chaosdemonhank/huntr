@@ -1,6 +1,6 @@
 # HÜNTR — Find. Fuck. Repeat.
 
-![HÜNTR Banner](https://github.com/chaosdemonhank/huntr/blob/main/store-banner3.jpg?raw=true)
+![HÜNTR Banner](assets/store-banner3.jpg)
 
 ### The "Yellow App" is dead. Long live the Hunt.
 
