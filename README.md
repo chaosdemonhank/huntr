@@ -5,7 +5,8 @@
   ### The "Yellow App" is dead. Long live the Hunt.
 
   HÜNTR is a location-based hookup app for gay men who are done with corporate
-  greed, broken grids, and basic features locked behind $30/month paywalls. Built
+  greed, broken grids, and basic features locked behind $30/month paywalls.
+  Built
   by an indie developer, for the community.
 
   ---
@@ -14,7 +15,8 @@
 
   ### **HÜNTR FREE (Always)**
   - **The Full Grid** — See everyone nearby
-  - **Rich Profiles** — Body type, position, tribes, kinks, HIV status, pronouns,
+  - **Rich Profiles** — Body type, position, tribes, kinks, HIV status,
+  pronouns,
   and more
   - **Real-Time Chat** — Instant messaging via live socket connection
   - **Private Albums** — Request and grant access to locked photo sets
@@ -25,7 +27,8 @@
 
   ### **HÜNTR PLUS — $9.99/mo**
   - **Global Hunting** — Search beyond your local area, worldwide
-  - **See Your Fans** — Full profile photos of everyone who viewed you (free users
+  - **See Your Fans** — Full profile photos of everyone who viewed you (free
+  users
   see blurred)
   - **Incognito Mode** — Browse the grid invisibly
   - **Advanced Filters** — Age range, tribes, looking for, online only
@@ -45,8 +48,50 @@
   - **Push notifications** — never miss a message
   - **Referral program** — earn PLUS time for growing the community
   - **Stripe payments** — secure hosted checkout, self-serve subscription portal
-  - **Full admin panel** — moderation queue, content review, analytics, compliance
+  - **Full admin panel** — moderation queue, content review, analytics,
+  compliance
   tools, audit logs
+
+  ---
+
+  ## 🛡️  No Spammers. No Scammers. No Ads.
+
+  We built a layered anti-spam system from the ground up. Here's what's running:
+
+  **At signup:**
+  - Disposable/throwaway email providers are blocked at registration (400+
+  domains)
+  - Max 3 accounts per IP address per 24 hours
+  - Every device is fingerprinted at signup — banned devices are flagged on
+  re-registration
+  - Email verification required before any profile is visible or messages can be
+  sent
+
+  **On profiles:**
+  - No approved photo = invisible on the grid, cannot start conversations
+  - Bios are scanned on save for known scammer language — cash app, OnlyFans
+  redirects, Telegram solicitation, sugar daddy offers, gift card requests, wire
+  transfers, and more
+  - Every uploaded photo is hashed and checked against all existing photos —
+  duplicate images across accounts are flagged immediately (scammers reuse
+  stolen photos constantly)
+
+  **In messages:**
+  - Accounts under 48 hours old cannot send links or URLs
+  - Accounts under 24 hours old can only start conversations with 5 different
+  users — they can still receive and reply to unlimited messages
+  - Every account's very first outbound message is delayed 30 seconds
+  server-side — invisible to real users, breaks automated spam scripts
+  completely
+  - More than 20 messages to more than 3 users in 10 minutes = automatic
+  suspension
+
+  **On reports:**
+  - 3 reports from different users within 24 hours = profile automatically
+  hidden from the grid pending review
+  - Admins are notified immediately
+  - Banning an account logs their device fingerprint, IP, and email domain to
+  block re-registration
 
   ---
 
@@ -59,7 +104,7 @@
 
   ---
 
-  ## ⚖️ Legal, Terms & Copyright
+  ## ⚖️  Legal, Terms & Copyright
 
   **Copyright © 2026 HonkyHankInc. All Rights Reserved.**
 
@@ -67,16 +112,19 @@
 
   ### 🔒 Intellectual Property & License Restrictions
 
-  All code, infrastructure, design elements, branding, trademarks, and associated
+  All code, infrastructure, design elements, branding, trademarks, and
+  associated
   assets ("HÜNTR IP") are the exclusive property of **HonkyHankInc** and are
   protected by U.S. and international copyright, trademark, and intellectual
   property laws.
 
   **No rights are granted except as explicitly stated below.**
 
-  You are granted a **limited, revocable, non-exclusive, non-transferable license**
+  You are granted a **limited, revocable, non-exclusive, non-transferable 
+  license**
   to:
-  - Install and use the HÜNTR application strictly for **personal, non-commercial
+  - Install and use the HÜNTR application strictly for **personal, 
+  non-commercial
   use**
 
   You may **NOT**, under any circumstances:
@@ -87,7 +135,8 @@
   - Scrape, harvest, or extract user data or system data
   - Circumvent security, access controls, or feature limitations
 
-  Violation of these terms may result in **account termination, legal action, and
+  Violation of these terms may result in **account termination, legal action, 
+  and
   financial damages**.
 
   ---
@@ -110,9 +159,10 @@
 
   ---
 
-  ### ⚠️ User-Generated Content & Conduct
+  ### ⚠️  User-Generated Content & Conduct
 
-  HÜNTR is a platform that hosts **user-generated content**. We do not control or
+  HÜNTR is a platform that hosts **user-generated content**. We do not control
+  or
   guarantee:
   - The identity, intent, or behavior of users
   - The accuracy of profiles
@@ -128,7 +178,8 @@
   - Use the app for illegal purposes
   - Transmit malware, spam, or scams
 
-  We reserve the right to **remove content, restrict accounts, or ban users at our
+  We reserve the right to **remove content, restrict accounts, or ban users at 
+  our
   sole discretion**.
 
   ---
@@ -152,9 +203,10 @@
 
   ---
 
-  ### ⚠️ Disclaimer of Warranties
+  ### ⚠️  Disclaimer of Warranties
 
-  HÜNTR is provided **"AS IS" and "AS AVAILABLE"**, without warranties of any kind,
+  HÜNTR is provided **"AS IS" and "AS AVAILABLE"**, without warranties of any
+  kind,
   express or implied, including but not limited to:
   - Fitness for a particular purpose
   - Reliability, availability, or accuracy
@@ -168,7 +220,8 @@
 
   To the maximum extent permitted by law:
 
-  **HonkyHankInc, its owner(s), developers, affiliates, and partners shall NOT be
+  **HonkyHankInc, its owner(s), developers, affiliates, and partners shall NOT 
+  be
   liable for:**
   - Any direct, indirect, incidental, or consequential damages
   - Personal injury, harm, or disputes between users
@@ -179,7 +232,7 @@
 
   ---
 
-  ### ⚖️ Indemnification
+  ### ⚖️  Indemnification
 
   You agree to **defend, indemnify, and hold harmless** HonkyHankInc from any
   claims, damages, liabilities, or expenses arising from:
@@ -191,16 +244,19 @@
 
   ### 🌐 Compliance & Jurisdiction
 
-  - You are responsible for complying with all **local, state, and national laws**
+  - You are responsible for complying with all **local, state, and national
+  laws**
   - This agreement shall be governed by the laws of the applicable jurisdiction
   chosen by HonkyHankInc
-  - Any disputes shall be resolved in the appropriate courts of that jurisdiction
+  - Any disputes shall be resolved in the appropriate courts of that
+  jurisdiction
 
   ---
 
   ### 🔄 Changes to Terms
 
-  We reserve the right to update or modify these terms at any time. Continued use
+  We reserve the right to update or modify these terms at any time. Continued
+  use
   of the app constitutes acceptance of those changes.
 
   ---
