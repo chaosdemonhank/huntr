@@ -4,79 +4,100 @@
 
 ### The "Yellow App" is dead. Long live the Hunt.
 
-HÜNTR is a location-based hookup app for gay men who are done with corporate greed, broken grids, and basic features locked behind $30/month paywalls. Built by an indie developer, for the community.
+You know the drill. Open Grindr. Half the grid is bots. The guy you want to message is blurred out unless you pay $30 a month. You get a message — it's a scammer asking for a cash app payment. You report it. Nothing happens.
+
+That's why I built HÜNTR.
+
+One gay developer. One year. Built from scratch because the community deserves better than what we've been getting.
 
 ---
 
 ## ⚡ Real Access. No Bullshit.
 
-I built this because I was tired of being treated like a revenue stream. Here's what you actually get:
+I was tired of being treated like a revenue stream. So I built the app I actually wanted to use.
 
 ### **HÜNTR FREE — Always**
 
-- **The Full Grid** — See everyone nearby, no blur, no paywall
-- **Rich Profiles** — Body type, position, tribes, kinks, HIV status, pronouns, and more
-- **Real-Time Chat** — Live messaging that actually works
-- **Private Albums** — Share locked photo sets with who you choose
-- **See Who Viewed You** — Know who's been checking you out
-- **Referral Rewards** — Refer a friend, you both get a free month of PLUS
-- **Full Safety Controls** — Block, report, stay in control
-- **Zero Ads. Ever.**
+- **The Full Grid** — Every profile, every guy, no blur, no paywall. See who's actually around you.
+- **Rich Profiles** — Body type, position, tribes, kinks, HIV status, pronouns, looking for status, and more. Real profiles, real people.
+- **Real-Time Chat** — Message anyone within 10 miles, instantly, for free. No "upgrade to send a message."
+- **Private Albums** — Share locked photo sets on your terms, with who you choose.
+- **See Who Viewed You** — Know who's been checking you out.
+- **Referral Rewards** — Refer a friend and you both get a free month of PLUS. No strings.
+- **Full Safety Controls** — Block without trace, report, stay in control.
+- **Zero Ads. Ever.** — Not on free. Not on paid. Not ever.
 
 ### **HÜNTR PLUS — $9.99/mo**
 
-- **Hunt Anywhere** — Go global, search worldwide
-- **See Your Fans** — Full profile photos of everyone who viewed you
-- **Incognito Mode** — Browse without leaving a trace
-- **Advanced Filters** — Age, tribes, looking for, online only
-- **Support Independent Development** — Keep the app ad-free and community-first
+Ten dollars. Not thirty. And it's for extras — not basics.
+
+- **Hunt Anywhere** — Drop your location anywhere in the world and see who's there
+- **See Your Fans** — Full unblurred profile photos of everyone who viewed you
+- **Incognito Mode** — Browse the entire grid without showing up in anyone's viewers
+- **Advanced Filters** — Filter by age, tribe, looking for, online only, and more
+- **Support Independent Development** — Keep this thing alive, ad-free, and community-first
 
 ---
 
-## 🔥 What's Under the Hood
+## 🔥 What You're Actually Getting
 
-- Location-based grid sorted by distance
-- Real-time chat with read receipts and unread counts
-- Private photo albums with per-user access control
-- Kinks, tribes, and full interest tagging
-- HIV status and safe sex fields — honest, no judgment
+- Location-based grid sorted by distance with real-time updates
+- Live messaging with read receipts, typing indicators, and unread counts
+- Private photo albums with per-user access request and grant system
+- Kinks, tribes, and full interest tagging — bear, jock, twink, daddy, otter, wolf, and more
+- HIV status and safe sex preferences — honest fields, zero judgment
+- "Looking For" status visible right on the grid tile — Now, Later, Dates, Friends, Relationship
 - Live online status indicators
-- Location privacy controls — hide exact location, toggle age and distance display
+- Emoji reactions on messages
+- Location privacy controls — hide your exact location, toggle age and distance display
+- Verification badges for confirmed profiles
 - Push notifications so you never miss a message
-- Referral program — earn PLUS time for growing the community
-- Secure Stripe payments with self-serve subscription portal
+- Referral program — earn PLUS time just for telling your friends
+- Secure Stripe payments with a self-serve subscription portal — cancel anytime, no runaround
 
 ---
 
 ## 🛡️ I Actually Give a Shit About Your Safety
 
-Most apps slap a report button on there and call it a day. I built a real system — and honestly, I built it for selfish reasons too. I'm just as sick as you are of opening Grindr and having every other profile be some scammer asking for a cash app payment, a bot pushing an OnlyFans link, or a fake profile trying to run a gift card scheme. It's exhausting and it kills the whole point of the app. I refused to let HÜNTR become that.
+Most apps slap a report button on there and call it a day. I built a real system — and honestly, I built it for selfish reasons too. I'm just as sick as you are of opening Grindr and having every other profile be some scammer asking for a Cash App payment, a bot pushing an OnlyFans link, or a fake profile running a gift card scheme. It's exhausting and it ruins the whole experience. I refused to let HÜNTR become that.
 
-**Before you even see someone on the grid:**
-- Throwaway email providers are blocked at signup — 400+ domains
-- Max 3 accounts per IP per day
-- Every device is fingerprinted — banned devices can't just make a new account
+**Before you ever see someone on the grid:**
+- Throwaway email providers blocked at signup — 400+ domains on the list
+- Max 3 accounts per IP per day — no account farms
+- Every device is fingerprinted at signup — banned devices can't just make a new account and come back
 - Email verification required before any profile goes live
-- No profile photo means no grid presence, period
-- Bios are scanned for known scammer language before going live
-- Every uploaded photo is checked against all existing photos — scammers who reuse stolen images get caught immediately
+- No profile photo means no grid presence, period — no faceless ghost accounts
+- Bios are scanned for known scammer language before they go live — cash app, OnlyFans redirects, Telegram solicitation, sugar daddy offers, gift cards, wire transfers
+- Every uploaded photo is hashed and checked against all existing photos — scammers who reuse stolen images get caught immediately
 
 **While you're using the app:**
-- New accounts can't send links for the first 48 hours
-- New accounts can only start 5 conversations in the first 24 hours — they can receive and reply to unlimited messages
-- Mass messaging triggers automatic suspension
-- 3 reports from different users within 24 hours hides a profile from the grid instantly pending review
-- Banned accounts have their device, IP, and email logged — re-registration gets flagged automatically
+- New accounts can't send links or URLs for the first 48 hours
+- New accounts can only start 5 conversations in the first 24 hours — they can still receive and reply to unlimited messages
+- Sending 20+ messages to multiple users in 10 minutes triggers automatic suspension
+- 3 reports from different users within 24 hours pulls a profile off the grid instantly pending review
+- Banned accounts have their device fingerprint, IP, and email logged — re-registration is flagged automatically
 
-This isn't a checkbox. It's layered, automated protection running in the background so you can focus on the hunt — not on weeding out fake profiles asking you to verify your identity with a $50 Google Play card.
+This isn't a checkbox. It's layered, automated protection running silently in the background so you can actually focus on why you downloaded a hookup app in the first place — not on weeding out fake profiles asking you to verify yourself with a $50 Google Play card.
 
 ---
 
-## 📥 Get It (Android)
+## 📥 Get It Now (Android)
 
-1. **Download the APK:** [Latest Release](https://github.com/chaosdemonhank/huntr/releases)
-2. **Install:** Enable "Install Unknown Apps" if prompted
-3. **Sign up and hunt**
+1. **[Download the APK](https://github.com/chaosdemonhank/huntr/releases)**
+2. Tap the file — if Android asks about unknown sources, tap Allow
+3. Install, sign up, and get to it
+
+Takes about 60 seconds. No account required to browse the landing page and see what you're getting into first.
+
+**iOS is coming.**
+
+---
+
+## 💬 Built in Public
+
+This app is the work of one developer who uses it. Every feature exists because it was missing somewhere else. Every safety system exists because I got burned by the alternative.
+
+If something's broken, open an issue right here on GitHub. If something's missing, tell me. I read everything and I actually ship fixes. That's the whole deal.
 
 ---
 
