@@ -1,6 +1,6 @@
 HÜNTR — Find. Fuck. Repeat.
 
-  HÜNTR Banner (promo-graphics5.jpg)
+  !HÜNTR Banner (promo-graphics5.jpg)
 
   The "Yellow App" is dead. Long live the Hunt.
 
