@@ -14,9 +14,9 @@ Built from the ground up to fix everything broken about the other apps — at **
 
 ## ⬇️ Download
 
-**[Download the latest Android APK here](https://github.com/chaosdemonhank/huntr/releases/download/v4.0.0/app-release.apk)**
+**[Download the latest Android APK here](https://github.com/chaosdemonhank/huntr/releases/download/v4.0.1/app-release.apk)**
 
-Current version: **v4.0.0** · Size: **84 MB**
+Current version: **v4.0.1** · Size: **84 MB**
 
 🌐 **Landing page:** [chaosdemonhank.github.io/huntr](https://chaosdemonhank.github.io/huntr/) — same download, prettier page.
 
@@ -113,7 +113,7 @@ Right inside the app, by card, through Stripe (the same payment processor used b
 The APK is digitally signed, and Android verifies that signature on install and on every update — an update only installs if it was signed with the same key as your existing copy. Only download from this official repo so you know you're getting the real file.
 
 **Is there an iPhone version?**
-Not yet. Apple doesn't allow direct app installs the way Android does, so v4.0.0 is Android-only. iOS is on the roadmap once the Android launch is rolling.
+Not yet. Apple doesn't allow direct app installs the way Android does, so v4.0.1 is Android-only. iOS is on the roadmap once the Android launch is rolling.
 
 **How do strikes actually work?**
 The system runs in the background — nobody files reports. Once a meet has actually been planned, blocking the other guy, no-showing, or collecting his pics without sending yours each earn a strike in that category. **5 strikes in one category within 30 days, or 7 total, triggers an automatic ban**, and the ban sticks to the device, not just the account. Normal chatting, browsing, and changing your mind *before* a meet is planned never earn strikes.
