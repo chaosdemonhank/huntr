@@ -8,13 +8,34 @@ Built from the ground up to fix everything broken about the other apps — at **
 
 **18+ only. Men seeking men.**
 
+![HÜNTR](store-banner.jpg)
+
 ---
 
 ## ⬇️ Download
 
 **[Download the latest Android APK here](https://github.com/chaosdemonhank/huntr/releases/download/v4.0.0/app-release.apk)**
 
-Current version: **v4.0.0**
+Current version: **v4.0.0** · Size: **84 MB**
+
+### Requirements
+
+- **Android 7.0 or newer** (any Android phone from roughly 2016 on)
+- ~100 MB of free space
+- An internet connection
+
+### How to install (takes about a minute)
+
+HÜNTR is distributed directly, not through Google Play — so Android will ask you to approve the install. That's normal for any app installed this way:
+
+1. Tap the download link above and let the APK finish downloading.
+2. Open the downloaded file (`app-release.apk`) from your notifications or Downloads folder.
+3. If Android asks, tap **Settings** and allow **"Install unknown apps"** for your browser, then go back. You only do this once.
+4. Tap **Install**.
+5. Google Play Protect may show a warning because the app isn't from the Play Store. Tap **"Install anyway"** — this warning appears for every directly-distributed app.
+6. Open HÜNTR, create your account, and confirm you're 18+.
+
+> **Only ever download HÜNTR from this GitHub repo.** If a site asks you to pay for the APK itself or download it from somewhere else, it's not us — the app is always free to download here; PLUS is paid inside the app.
 
 ---
 
@@ -57,6 +78,12 @@ When it's time, drop a **meet pin** right in chat. The meet has a real flow — 
 
 ---
 
+## A look at HÜNTR
+
+<img src="promo-graphics3.jpg" width="300" alt="HÜNTR promo"> <img src="promo-graphics4.jpg" width="300" alt="HÜNTR promo">
+
+---
+
 ## HÜNTR PLUS — $9.99/month
 
 Everything above, unlocked to the max — for **less than half of what Grindr charges** for premium. Same game, better app, lower price. Do the math.
@@ -69,6 +96,28 @@ Everything above, unlocked to the max — for **less than half of what Grindr ch
 - View-once pics are view-once
 - Block purges go both ways, completely
 - Your exact meet address is revealed progressively, only when your guest is en route
+
+---
+
+## FAQ
+
+**Why isn't HÜNTR on Google Play?**
+Google doesn't allow 18+ hookup apps on the Play Store. Distributing directly means no store gatekeepers, no store fees — and it's a big reason PLUS can cost $9.99 instead of what the other guys charge.
+
+**How do I pay for PLUS if there's no Play Store billing?**
+Right inside the app, by card, through Stripe (the same payment processor used by millions of businesses). No Google account needed, cancel anytime in the app.
+
+**Is the APK safe?**
+The APK is digitally signed, and Android verifies that signature on install and on every update — an update only installs if it was signed with the same key as your existing copy. Only download from this official repo so you know you're getting the real file.
+
+**Is there an iPhone version?**
+Not yet. Apple doesn't allow direct app installs the way Android does, so v4.0.0 is Android-only. iOS is on the roadmap once the Android launch is rolling.
+
+**How do strikes actually work?**
+The system runs in the background — nobody files reports. Once a meet has actually been planned, blocking the other guy, no-showing, or collecting his pics without sending yours each earn a strike in that category. **5 strikes in one category within 30 days, or 7 total, triggers an automatic ban**, and the ban sticks to the device, not just the account. Normal chatting, browsing, and changing your mind *before* a meet is planned never earn strikes.
+
+**I got banned / something's broken / I need help.**
+Open an issue here: **[github.com/chaosdemonhank/huntr/issues](https://github.com/chaosdemonhank/huntr/issues)** — that's the official support and bug-report channel. Appeals are read by a human.
 
 ---
 
