@@ -18,6 +18,8 @@ Built from the ground up to fix everything broken about the other apps — at **
 
 Current version: **v4.0.0** · Size: **84 MB**
 
+🌐 **Landing page:** [chaosdemonhank.github.io/huntr](https://chaosdemonhank.github.io/huntr/) — same download, prettier page.
+
 ### Requirements
 
 - **Android 7.0 or newer** (any Android phone from roughly 2016 on)
