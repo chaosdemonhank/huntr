@@ -20,7 +20,7 @@ Current version: **v4.0.2** · Size: **84 MB**
 
 ### 📱 On iPhone? Use the web version
 
-**[Open HÜNTR in your browser — huntr-pi.vercel.app](https://huntr-pi.vercel.app/)**
+**[Open HÜNTR in your browser — get.huntrmail.xyz/app](https://get.huntrmail.xyz/app/)**
 
 No download, no App Store, nothing to install. The web version is the full HÜNTR — same account, same grid, same PLUS — and it works on iPhone, iPad, and any computer browser.
 
@@ -126,7 +126,7 @@ Right inside the app, by card, through Stripe (the same payment processor used b
 The APK is digitally signed, and Android verifies that signature on install and on every update — an update only installs if it was signed with the same key as your existing copy. Only download from this official repo so you know you're getting the real file.
 
 **Is there an iPhone version?**
-Yes — the **web version**: [huntr-pi.vercel.app](https://huntr-pi.vercel.app/). Apple doesn't allow direct app installs the way Android does, so on iPhone HÜNTR runs in the browser instead of as a native app. It's the full HÜNTR with the same account, and if you open it in Safari and choose **Add to Home Screen**, it sits on your home screen and opens full-screen like a regular app. A native iOS app is still on the roadmap.
+Yes — the **web version**: [get.huntrmail.xyz/app](https://get.huntrmail.xyz/app/). Apple doesn't allow direct app installs the way Android does, so on iPhone HÜNTR runs in the browser instead of as a native app. It's the full HÜNTR with the same account, and if you open it in Safari and choose **Add to Home Screen**, it sits on your home screen and opens full-screen like a regular app. A native iOS app is still on the roadmap.
 
 **How do strikes actually work?**
 The system runs in the background — nobody files reports. Once a meet has actually been planned, blocking the other guy, no-showing, or collecting his pics without sending yours each earn a strike in that category. **5 strikes in one category within 30 days, or 7 total, triggers an automatic ban**, and the ban sticks to the device, not just the account. Normal chatting, browsing, and changing your mind *before* a meet is planned never earn strikes.
