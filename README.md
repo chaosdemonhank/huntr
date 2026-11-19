@@ -18,13 +18,26 @@ Built from the ground up to fix everything broken about the other apps — at **
 
 Current version: **v4.0.1** · Size: **84 MB**
 
+### 📱 On iPhone? Use the web version
+
+**[Open HÜNTR in your browser — huntr-pi.vercel.app](https://huntr-pi.vercel.app/)**
+
+No download, no App Store, nothing to install. The web version is the full HÜNTR — same account, same grid, same PLUS — and it works on iPhone, iPad, and any computer browser.
+
+**Make it feel like a real app on iPhone:** open the link in **Safari**, tap the **Share** button, then **Add to Home Screen**. HÜNTR lands on your home screen with its own icon and opens full-screen, just like a native app.
+
 🌐 **Landing page:** [chaosdemonhank.github.io/huntr](https://chaosdemonhank.github.io/huntr/) — same download, prettier page.
 
 ### Requirements
 
+**Android app:**
 - **Android 7.0 or newer** (any Android phone from roughly 2016 on)
 - ~100 MB of free space
 - An internet connection
+
+**Web version (iPhone / iPad / computer):**
+- Any modern browser (Safari, Chrome, Firefox, Edge)
+- An internet connection — that's it
 
 ### How to install (takes about a minute)
 
@@ -113,7 +126,7 @@ Right inside the app, by card, through Stripe (the same payment processor used b
 The APK is digitally signed, and Android verifies that signature on install and on every update — an update only installs if it was signed with the same key as your existing copy. Only download from this official repo so you know you're getting the real file.
 
 **Is there an iPhone version?**
-Not yet. Apple doesn't allow direct app installs the way Android does, so v4.0.1 is Android-only. iOS is on the roadmap once the Android launch is rolling.
+Yes — the **web version**: [huntr-pi.vercel.app](https://huntr-pi.vercel.app/). Apple doesn't allow direct app installs the way Android does, so on iPhone HÜNTR runs in the browser instead of as a native app. It's the full HÜNTR with the same account, and if you open it in Safari and choose **Add to Home Screen**, it sits on your home screen and opens full-screen like a regular app. A native iOS app is still on the roadmap.
 
 **How do strikes actually work?**
 The system runs in the background — nobody files reports. Once a meet has actually been planned, blocking the other guy, no-showing, or collecting his pics without sending yours each earn a strike in that category. **5 strikes in one category within 30 days, or 7 total, triggers an automatic ban**, and the ban sticks to the device, not just the account. Normal chatting, browsing, and changing your mind *before* a meet is planned never earn strikes.
