@@ -14,9 +14,9 @@ Built from the ground up to fix everything broken about the other apps — at **
 
 ## ⬇️ Download
 
-**[Download the latest Android APK here](https://github.com/chaosdemonhank/huntr/releases/download/v4.0.1/app-release.apk)**
+**[Download the latest Android APK here](https://github.com/chaosdemonhank/huntr/releases/download/v4.0.2/app-release.apk)**
 
-Current version: **v4.0.1** · Size: **84 MB**
+Current version: **v4.0.2** · Size: **84 MB**
 
 ### 📱 On iPhone? Use the web version
 
