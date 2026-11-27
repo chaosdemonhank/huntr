@@ -73,16 +73,25 @@
 <main class="wrap">
 
   <section>
-    <h2>Now seeding: <span class="a">15 cities, nationwide</span></h2>
-    <p class="sub">HÜNTR started in Knoxville, Asheville and Nashville — now we're seeding big cities all across the country at the same time: Atlanta, Charlotte, Chicago, Dallas, Houston, Miami, New York City, Los Angeles, San Francisco, Seattle, Denver and Las Vegas. And we're building the grid BEFORE the wide push, not after. Nobody should open this app to an empty room.</p>
+    <h2>Now live: <span class="a">every city in America</span></h2>
+    <p class="sub">HÜNTR started in Knoxville, Asheville and Nashville — now it's live nationwide, in every US city at the same time. Atlanta, Chicago, Houston, Miami, New York City, Los Angeles — or wherever you are. Some cities will take off first; that's fine. Wherever guys show up, the grid is open and the founding offer is running. Nobody should open this app to a "not available in your area" wall.</p>
     <div class="price">
       <p style="font-size:22px;font-weight:800">First 25 in each city: <span style="color:var(--accent)">PLUS free for a FULL YEAR</span></p>
-      <p class="sub" style="margin:10px 0 6px">Open HÜNTR in your browser, create your profile, and be on the grid from day one. The first <b>25 guys in each launch city</b> get <b>HÜNTR PLUS free for a full year</b> — complete access to everything, unlimited, no card required. That's a $120 value, free, just for being early. When your city's 25 are gone, they're gone.</p>
+      <p class="sub" style="margin:10px 0 6px">Open HÜNTR in your browser, create your profile, and be on the grid from day one. The first <b>25 guys in your city</b> — every city in the US, no exceptions — get <b>HÜNTR PLUS free for a full year</b>: complete access to everything, unlimited, no card required. That's a $120 value, free, just for being early. When your city's 25 are gone, they're gone.</p>
       <div class="spots" id="spots"></div>
       <p class="meta" id="spots-note">Free-year spots left, updated live from real signups.</p>
+      <div style="margin:14px auto 2px;max-width:480px">
+        <p style="font-weight:700;margin-bottom:8px">Check your city:</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+          <input id="fc-city" type="text" placeholder="Your city" autocomplete="address-level2" style="flex:1 1 170px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px;color:var(--text);font-size:15px">
+          <input id="fc-state" type="text" placeholder="State (e.g. VA)" autocomplete="address-level1" style="flex:0 1 130px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px;color:var(--text);font-size:15px">
+          <button id="fc-go" type="button" style="background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;font-weight:800;border:none;border-radius:10px;padding:11px 20px;font-size:15px;cursor:pointer">Check spots</button>
+        </div>
+        <p class="meta" id="fc-result" style="min-height:20px"></p>
+      </div>
       <a class="btn" href="https://get.huntrmail.xyz/app/">Claim my free year</a>
-      <div class="meta">No download needed · First 25 per city get PLUS free for 1 year · 15 launch cities</div>
-      <p style="margin-top:18px;font-weight:700">Know a guy in one of these cities? Send him his free year:</p>
+      <div class="meta">No download needed · First 25 in every city get PLUS free for 1 year · Live nationwide</div>
+      <p style="margin-top:18px;font-weight:700">Know a guy anywhere in the US? Send him his free year:</p>
       <div class="meta" style="font-size:16px">
         <a href="https://bsky.app/intent/compose?text=First%2025%20guys%20in%20each%20city%20get%20H%C3%9CNTR%20PLUS%20free%20for%20a%20FULL%20YEAR%20%E2%80%94%20new%20hookup%20app%20that%20bans%20flakes%20automatically.%20Claim%20yours%3A%20https%3A%2F%2Fget.huntrmail.xyz%2Fapp%2F" target="_blank" rel="noopener">Share on Bluesky</a> ·
         <a href="https://twitter.com/intent/tweet?text=First%2025%20guys%20in%20each%20city%20get%20H%C3%9CNTR%20PLUS%20free%20for%20a%20FULL%20YEAR%20%E2%80%94%20new%20hookup%20app%20that%20bans%20flakes%20automatically.%20Claim%20yours%3A%20https%3A%2F%2Fget.huntrmail.xyz%2Fapp%2F" target="_blank" rel="noopener">Share on X</a> ·
@@ -94,23 +103,49 @@
   </section>
 <script>
 (function(){
-  var CITIES=["Knoxville","Asheville","Nashville","Atlanta","Charlotte","Chicago","Dallas","Houston","Miami","New York City","Los Angeles","San Francisco","Seattle","Denver","Las Vegas"];
-  function render(counts){
+  var API='https://huntr-backend-1zp2.onrender.com/api/public/founding-counts';
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(ch){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]; }); }
+  // Nationwide: there is no fixed city list. The grid shows every city
+  // where founding spots have actually been claimed so far; until the
+  // first claim lands anywhere it shows the standing offer instead.
+  function render(cities){
     var el=document.getElementById('spots'); if(!el) return;
-    el.innerHTML=CITIES.map(function(name){
-      var left=25;
-      if(counts){ for(var i=0;i<counts.length;i++){ if(counts[i].label===name){ left=counts[i].spotsLeft; break; } } }
-      return '<div class="spot"><div class="n">'+left+'</div><div class="c">'+name+'<br>free-year spots left</div></div>';
+    if(!cities || !cities.length){
+      el.innerHTML='<div class="spot"><div class="n">25</div><div class="c">spots open in YOUR city<br>— and every city in the US</div></div>';
+      return;
+    }
+    el.innerHTML=cities.map(function(c){
+      return '<div class="spot"><div class="n">'+c.spotsLeft+'</div><div class="c">'+esc(c.label)+'<br>free-year spots left</div></div>';
     }).join('');
   }
   render(null);
-  fetch('https://huntr-backend-1zp2.onrender.com/api/public/founding-counts')
+  fetch(API)
     .then(function(r){ if(!r.ok) throw new Error('bad'); return r.json(); })
-    .then(function(j){ if(j&&j.data&&j.data.cities) render(j.data.cities); })
+    .then(function(j){ if(j&&j.data) render(j.data.cities); })
     .catch(function(){
       fetch('founding-counts.json').then(function(r){ return r.json(); })
         .then(function(j){ if(j&&j.cities) render(j.cities); }).catch(function(){});
     });
+  var go=document.getElementById('fc-go');
+  if(go){
+    go.addEventListener('click', function(){
+      var city=document.getElementById('fc-city').value.trim();
+      var state=document.getElementById('fc-state').value.trim();
+      var out=document.getElementById('fc-result');
+      if(!city){ out.textContent='Type your city first.'; return; }
+      out.textContent='Checking…';
+      fetch(API+'?city='+encodeURIComponent(city)+'&state='+encodeURIComponent(state))
+        .then(function(r){ if(!r.ok) throw new Error('bad'); return r.json(); })
+        .then(function(j){
+          var c=j&&j.data&&j.data.city;
+          if(!c){ out.textContent='Could not check that city — but the offer is 25 spots in every city.'; return; }
+          out.textContent = c.claimed===0
+            ? 'All 25 free-year spots are still open in '+c.label+' — be one of the first 25.'
+            : c.spotsLeft+' of 25 free-year spots left in '+c.label+' ('+c.claimed+' claimed).';
+        })
+        .catch(function(){ out.textContent='Live check unavailable right now — the offer is 25 spots in every city.'; });
+    });
+  }
 })();
 </script>
 

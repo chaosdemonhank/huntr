@@ -30,7 +30,7 @@ No download, no App Store, nothing to install. The web version is the full HÜNT
 
 ### 🎁 Launch offer — PLUS free for a FULL YEAR
 
-The first **25 guys in each launch city** who create a profile get **HÜNTR PLUS free for a full year** — complete access to everything, unlimited. Launch cities: Knoxville, Asheville, Nashville, Atlanta, Charlotte, Chicago, Dallas, Houston, Miami, New York City, Los Angeles, San Francisco, Seattle, Denver, Las Vegas. The landing page shows a live spots-left counter per city — when your city's 25 are gone, they're gone.
+HÜNTR is live **nationwide** — every city in the US. The first **25 guys in your city** who create a profile get **HÜNTR PLUS free for a full year** — complete access to everything, unlimited. No city list, no gate: wherever you are, your city has 25 founding spots. The landing page shows live spots-left counts and a checker for your own city — when your city's 25 are gone, they're gone.
 
 ### Requirements
 
